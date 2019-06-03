@@ -1,0 +1,7 @@
+server {
+listen <%= $port %>;
+  listen [::]:<%= $port %>;
+
+  root /var/www/<%= $servername %>;
+  server_name <%= $servername %> www.<%= $servername %>;
+}

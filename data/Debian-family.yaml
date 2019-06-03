@@ -1,0 +1,4 @@
+---
+nginx::vhosts_root: '/etc/nginx/sites-available'
+nginx::vhosts_owner: 'www-data'
+nginx::vhosts_group: 'www-data'

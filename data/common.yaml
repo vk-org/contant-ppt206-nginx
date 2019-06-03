@@ -1,0 +1,11 @@
+---
+nginx::install_name: 'nginx'
+nginx::install_ensure: 'present'
+nginx::config_path: '/etc/nginx/nginx.conf'
+nginx::config_ensure: 'file'
+nginx::service_name: 'nginx'
+nginx::service_ensure: 'running'
+nginx::service_enable: true
+nginx::vhosts_root: '/etc/nginx/sites-available'
+nginx::vhosts_owner: 'www-data'
+nginx::vhosts_group: 'www-data'

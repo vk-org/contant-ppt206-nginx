@@ -1,0 +1,5 @@
+---
+nginx::vhosts_root: '/etc/nginx/conf.d'
+nginx::vhosts_owner: 'nginx'
+nginx::vhosts_group: 'nginx'
+
